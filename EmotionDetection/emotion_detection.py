@@ -29,7 +29,7 @@ def emotion_detector(text_to_analyze):
     # Add a timeout to prevent hanging requests
     response = requests.post(url, json=input_json, headers=headers, timeout=10)
 
-    # Task 7 preview: Handle Watson API bad requests
+    # Task 7: Handle status code 400 (Bad Request/Empty Input)
     if response.status_code == 400:
         return {
             "anger": None,

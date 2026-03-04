@@ -19,7 +19,7 @@ def emotion_detector_function():
 
     # Task 7: Error handling for invalid text (None values)
     if response['dominant_emotion'] is None:
-        return "Invalid text! Please try again."
+        return "Invalid text! Please try again!"
 
     # Return a formatted string with the sentiment analysis results
     return (
