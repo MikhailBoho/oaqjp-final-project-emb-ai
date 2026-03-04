@@ -1,2 +1,2 @@
-# Final project
-# Repository for final project
+# Final Project: Emotion Detection System
+A Python-based web application that utilizes Watson NLP to analyze text and detect emotions (anger, disgust, fear, joy, and sadness). This project was completed as part of the IBM Back-End Development professional certificate.
